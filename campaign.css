@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Segaon";
+  src: url("segaon-extrabold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Garnet";
+  src: url("Garnet\ Capitals\ Black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    padding: 10 30;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0D2559;
+    position: relative;
+    height: 60px;
+    transition: all 0.3s;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.menu-icon{
+    display: none;
+    padding-right: 2px;
+}
+
+.menu-icon i{
+    color: #fff;
+    font-size: 30px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.twoother{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+.twoother li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.twoother{
+
+}
+
+
+.twoother li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.espanolbutton{
+    background-color: #F33038;
+    height: 40px;
+    color: white;
+    border-radius: 3px;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    width: 100px;
+}
+
+.logo{
+    padding-left: 10px;
+}
+
+.section2{
+    height: 520px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("countries.jpeg");
+    background-size: cover;  
+    background-position: 15% center 70% top;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(360deg, #0D2559 2%, rgba(13, 37, 89, 0.5) 100%, transparent 100%);
+    opacity: 1;
+}
+
+.buttons{
+    width: 100%;
+    height: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_cont{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Inpt{
+    height: 80%;
+    width: 84%;
+    background-color: #E0E5EF;
+    border-radius: 3px;
+    border: solid #E0E5EF 1px;
+    margin: 5px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    color: #838899;
+    padding: 15px;
+    opacity: 0.8;
+}
+
+.bottom{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titles{
+    height: 32%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -30px;
+    margin-top: -60px;
+}
+.logos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.volunteers{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title {
+    font-family: Segaon;
+    font-size: 30px;
+    color: white;
+    opacity: 0.9;
+}
+
+.texts{
+    width: 77%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Henry_Cant_Without_You {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 9px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    opacity: 0.9;
+    
+}
+.send{
+    width: 60%;
+    height: 80%;
+    border: solid #F33038 2px;
+    background-color: #F33038;
+    color: #ffff;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+    border-radius: 2px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease;
+}
+
+.disclaimer{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.Disclaimer_Bottom {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #ffff;
+    font-size: 8px;
+    width: 453px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3{
+    width: 100%;
+    height: 375px;
+    background-color: #0D2559;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.frame{
+    width: 90%;
+    height: 90%;
+    border: solid #ffff 2px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part1{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.containers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -45px;
+}
+.titless{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left !important; 
+}
+.Always{
+    font-family: Segaon;
+    font-size: 29px;
+    color: white;
+    text-align: left;
+    margin-bottom: 4px;
+}
+.Your_Movement{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10.5px;
+    text-align: left;
+    width: 100%;
+    color: white;
+}
+.butonss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+.Volunteer_Button {
+    width: 100%;
+    height: 100%;
+    border: solid #ffff 2px;
+    background-color: transparent;
+    color: #ffff;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    border-radius: 2px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease;
+}
+
+.part2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    margin-top: -35px;
+    border-radius: 4px;
+}
+
+nav.sticky{
+    position: fixed;
+    opacity: 0.95;
+    z-index: 200;
+    width: 100%;
+    height: 70px;
+    transition: all 0.3s;
+}
+
+.section4{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.side1{
+    width: 80%;
+    height: 100%;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.campaign_merch{
+    font-family: Garnet;
+    color: #0D2559;
+    font-size: 17px;
+    line-height: 0.9;
+    /*font-style: italic;*/
+    margin-bottom: 5px;
+}
+.your_support{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: regular;
+    font-size: 7px;
+    text-align: left;
+    width: 70%;
+    color: #5E5E5E;
+    line-height: 1.5;
+}
+
+.shop_button{
+    width: 40%;
+    height: 23px;
+    border: solid #F33038 2px;
+    background-color: #F33038;
+    color: #ffff;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 11px;
+    border-radius: 2px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.side2{
+    width: 20%;
+    height: 100%;
+    margin-right: 45px;
+    margin-top: 10px;
+}
+
+.footer{
+    height: 278px;
+    width: 100%;
+    background-color: #0D2559;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conecta{
+
+}
+
+.textc{
+    font-family: Segaon;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+}
+
+.footerimg{
+    margin-bottom: 5px;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.icons a{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: solid #ffff 2px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 7px;
+}
+
+.icons a .fa-brands{
+    font-size: 16px;
+    line-height: 31px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    text-align: center;
+    
+}
+
+.pictureandtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    flex-direction: column;
+}
+
+.Disclaimer_Bottoms{
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #ffff;
+    font-size: 8px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.paidformargin{
+    border: solid #ffff 1px;
+    width: 121px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paidfor{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+.disclaimers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.nopor{
+    color: white;
+    font-family: HanziPen SC;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.peniss{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.penisss{
+    width: 85%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.penis{
+    font-family:segaon;
+    color:#0D2559;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -1px;
+    transform: translateY(25px);
+
+}
+.section5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height:500px;
+}
+
+.upper{
+    width: 100%;
+    height: 90%;
+}
+
+.Disclaimer_Bottomss{
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #0D2559;
+    font-size: 8px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: -45px;
+}
+
+#accordion{
+    margin: 15% auto;
+    width: 85%;
+}
+
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background: #0D2559;
+}
+
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    font-family: segaon;
+    font-size: 20px;
+}
+
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    font-weight: 800;
+    color: white;
+}
+
+#accordion label + input[type="radio"]{
+    display: none;
+}
+
+#accordion .contents{
+    padding: 0 10px;
+    line-height: 16px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    font-family: montserrat, sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+#accordion label + input[type="radio"]:checked + .contents{
+    max-height: 400px;
+}
+@media (max-width:600px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #0D2559;
+        gap: 0;
+        overflow: hidden;
+        z-index: 100;
+        opacity: 0.9;
+    }
+    nav ul li{
+        padding: 20px;
+    }
+    .menu-icon{
+        display: block;
+
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+    .twoother li a{
+        font-size: 16px;
+    }
+}
