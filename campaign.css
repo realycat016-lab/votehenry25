@@ -6,14 +6,14 @@
 
 @font-face {
   font-family: "Segaon";
-  src: url("segaon-extrabold.otf") format("opentype");
+  src: url("fonts/segaon-extrabold.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Garnet";
-  src: url("Garnet\ Capitals\ Black.otf") format("opentype");
+  src: url("fonts/Garnet Capitals Black.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
